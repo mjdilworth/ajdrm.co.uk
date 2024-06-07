@@ -5,16 +5,16 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-default: "Aptos", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-primary: "Inter", sans-serif;
   --font-secondary: "Cardo", sans-serif;
 }
 
-/* Colors */
+/* Colors --color-secondary: #161718;*/
 :root {
   --color-default: #fafafa;
   --color-primary: #d9945b;
-  --color-secondary: #161718;
+  --color-secondary: #999c9d;
 }
 
 /* Smooth scroll behavior */
@@ -22,6 +22,20 @@
   scroll-behavior: smooth;
 }
 
+/* --- my stuff --*/
+.wrapper {
+  column-count: 1;
+  column-gap: 50px;
+  padding: 50px;
+}
+.star {
+  float: left;
+  width: 150px;
+  
+  shape-margin:20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -1162,8 +1176,9 @@ h6 {
   border-radius: 4px;
   box-shadow: none;
   font-size: 14px;
-  background-color: var(--color-secondary);
-  border: 1px solid #2e3133;
+  background-color: var(--color-secondary); 
+ border: 1px solid #2e3133; 
+  
   color: #fff;
 }
 

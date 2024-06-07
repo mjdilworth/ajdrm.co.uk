@@ -9,7 +9,7 @@ Navigating to http://localhost:8100 will display the index.html or directory
 listing file.
 */
 
-package mainold
+package main
 
 import (
 	"crypto/tls"
